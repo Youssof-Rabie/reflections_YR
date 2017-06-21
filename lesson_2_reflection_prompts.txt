@@ -1,10 +1,20 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	git creates a meta-data-containing directory ".git" that gives git the functionalities it has,( in which it stores repository images )
+	and turns the directory into a git repository.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	it is neither normal files in the file system that does not have to do with the repository nor files in the repositoy, it constitutes files 
+	will be commited to the repository.
+	It gives flexibility and ability to view changes in the system before commiting them.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	by comparing the last commited files in the staging area to the changed files in the working directory, using 'git diff' command, then
+	staging the changes after making sure they are what is intended. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
