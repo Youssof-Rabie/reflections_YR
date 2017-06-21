@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	shows all the changes that have been made including what aused the bug so one can fix it in the new file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	Giving the progammer - sort of - a check point of running code before they make their edits. And being able to compare both versions.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Having control over when to update the running version when one is sure that version is well not buggy.
+	Which have its advantages to both updating packages and working in a team.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    bacause a project might constitute more than one file and change might occur to arbitrarily many of them in a code change.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows all the commits with information about each: commit ID, the author, time submitted, and a message to make the commit logically 
+	distinguishable from other commits.
+	git diff shows the changes made from the first to the second id's provided of the commits. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    having an earlier ( commit / source code image ) working properly while the new one does not permenantly overwrite the old version it is.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    maintaining and improving my own projects and having th eflexibity to make improvements and tryign new ideas on the code without being afraid to 
+	crash the project, working on projects with others, getting code samples to facilitate devoloping process, collaborating and adding to source code 
+	in open-source cummunity-driven projects, obtaining source code for running software on my device to review and explore, and to install packages
+	on my device.
